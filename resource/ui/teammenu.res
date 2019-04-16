@@ -140,6 +140,25 @@
 		"enabled"		"1"
 	}
 	
+	"BlueLabel2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"BlueLabel"
+		"font"			"Futura8"
+		"fgcolor"		"OmpText"
+		"labelText"		"(1)"
+		"textAlignment"	"center"
+		"xpos"			"c-38"
+		"ypos"			"c7"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	"RedLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -159,13 +178,32 @@
 		"enabled"		"1"
 	}
 	
+	"RedLabel2"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"RedLabel"
+		"font"			"Futura8"
+		"fgcolor"		"OmpText"
+		"labelText"		"(2)"
+		"textAlignment"	"center"
+		"xpos"			"c22"
+		"ypos"			"c7"
+		"zpos"			"2"
+		"wide"			"60"
+		"tall"			"14"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+	}
+	
 	"RandomLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RandomLabel"
 		"font"			"Futura11"
 		"fgcolor"		"OmpText"
-		"labelText"		"Random"
+		"labelText"		"Random (R)"
 		"textAlignment"	"center"
 		"xpos"			"c-60"
 		"ypos"			"c-33"
@@ -184,7 +222,7 @@
 		"fieldName"		"SpectateLabel"
 		"font"			"Futura11"
 		"fgcolor"		"OmpText"
-		"labelText"		"Spectate"
+		"labelText"		"Spectate (3)"
 		"textAlignment"	"center"
 		"xpos"			"c-60"
 		"ypos"			"c19"
@@ -211,7 +249,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"3"
-		"labelText"		"&3"	[$WIN32]
+		"labelText"		"&1"	[$WIN32]
 		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
@@ -239,7 +277,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"4"
-		"labelText"		"&4"	[$WIN32]
+		"labelText"		"&2"	[$WIN32]
 		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
@@ -267,7 +305,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"1"
-		"labelText"		"&1"	[$WIN32]
+		"labelText"		"&R"	[$WIN32]
 		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"
@@ -293,7 +331,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"2"
-		"labelText"		"&2"	[$WIN32]
+		"labelText"		"&3"	[$WIN32]
 		"labelText"		""		[$X360]
 		"textAlignment"	"south-west"
 		"dulltext"		"0"

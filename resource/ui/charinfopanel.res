@@ -177,7 +177,7 @@
 		"tall"			"25"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"&E"
+		"labelText"		"&C"
 		"Command"		"close"
 	}
 	
