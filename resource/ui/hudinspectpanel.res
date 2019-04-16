@@ -4,25 +4,25 @@
 	{
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"itempanel"
-		"xpos"			"0"
+		"xpos"			"50"
 		"ypos"			"0"
-		"zpos"			"10"
-		"wide"			"190"
+		"zpos"			"1"
+		"wide"			"140"
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"0"
 		
-		"model_ypos"		"10"
-
-		"model_center_x"	"1"
+		"model_xpos"		"0"
+		"model_center_x"    "1"
+		"model_ypos"        "20"
 		"model_wide"		"90"
-		"model_tall"		"60"
+		"model_tall"		"50"
 		
-		"text_xpos"		"10"
-		"text_ypos"		"10"
-		"text_wide"		"170"
+		"text_xpos"		"0"
+		"text_ypos"		"20"
+		"text_wide"		"140"
 		"text_center"	"1"
 		
 		"max_text_height"	"90"
@@ -37,10 +37,8 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"f0" // fill whole panel
-			"tall"			"f0" // fill whole panel
-
-
+			"wide"			"200"
+			"tall"			"1000"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -57,21 +55,21 @@
 		
 		"ItemLabel"
 		{	
-			"ControlName"	"Label"
+			"ControlName"	"CExLabel"
 			"fieldName"		"ItemLabel"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
-			"xpos"			"10"
-			"ypos"			"3"
+			"xpos"			"5"
+			"ypos"			"5"
 			"zpos"			"1"
-			"wide"			"270"
-			"tall"			"9"
+			"wide"			"180"
+			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"north-west"
 			"dulltext"		"0"
 			"brighttext"	"0"
 		}

@@ -13,6 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 150"
 	}
 	
 	"MainBG"
@@ -31,15 +32,31 @@
 		"fillcolor"		"OmpDarkBG"
 	}
 	
+	"HeaderBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"HeaderBG"
+		"xpos"			"c-180"
+		"ypos"			"c-120"
+		"zpos"			"-1"
+		"wide"			"360"
+		"tall"			"20"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"OmpHighlights"
+	}
+	
 	"MapInfoTitle"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoTitle"
 		"xpos"			"c-170"
-		"ypos"			"c-110"
+		"ypos"			"c-120"
 		"zpos"			"1"
 		"wide"			"340"
-		"tall"			"16"
+		"tall"			"20"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -55,7 +72,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapInfoType"
 		"xpos"			"c-170"
-		"ypos"			"c-94"
+		"ypos"			"c-98"
 		"zpos"			"1"
 		"wide"			"340"
 		"tall"			"14"
@@ -92,22 +109,47 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MapImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"c80"
+		"ypos"			"c-10"
 		"zpos"			"2"
-		"wide"			"275"
-		"wide_hidef"			"225"
-		"wide_lodef"	"225"
-		"tall"			"275"
-		"tall_hidef"			"225"
-		"tall_lodef"	"225"
-		"visible"		"0"
+		"wide"			"90"
+		"tall"			"90"
+		"visible"		"1"
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"	
 	}
 
-	"MapInfoContinue" [$WIN32]
+	"MapInfoContinue"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoContinue"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"wide"			"100"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_CONTINUE"
+		"textAlignment"	"center"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"continue"
+		"default"		"1"
+		"font"			"Futura16"
+		"paintbackground"	"0"
+		
+		"fgcolor"			"OmpText"
+		"defaultFgColor_override" "OmpText"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
+		"selectedFgColor_override" "OmpText"
+	}
+	
+	"MapInfoContinue2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoContinue"
@@ -120,7 +162,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Continue"
+		"labelText"		"CONTINUE (&E)"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -131,8 +173,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	
@@ -160,12 +202,40 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	
-	"MapInfoBack" [$WIN32]
+	"MapInfoBack"
+	{
+		"ControlName"	"CExButton"
+		"fieldName"		"MapInfoBack"
+		"xpos"			"9999"
+		"ypos"			"9999"
+		"zpos"			"6"
+		"wide"			"60"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"#TF_BACK"
+		"textAlignment"	"west"
+		"dulltext"		"0"
+		"brighttext"	"0"
+		"command"		"back"
+		"font"			"Futura11"
+		"paintbackground"	"0"
+		
+		"fgcolor"			"OmpText"
+		"defaultFgColor_override" "OmpText"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
+		"selectedFgColor_override" "OmpText"
+	}
+	
+	"MapInfoBack2"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"MapInfoBack"
@@ -178,7 +248,7 @@
 		"pinCorner"		"2"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Back"
+		"labelText"		"BACK (&Q)"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -188,8 +258,8 @@
 		
 		"fgcolor"			"OmpText"
 		"defaultFgColor_override" "OmpText"
-		"armedFgColor_override" "125 225 30 255"
-		"depressedFgColor_override" "125 225 30 255"
+		"armedFgColor_override" "OmpMouseover"
+		"depressedFgColor_override" "OmpMouseover"
 		"selectedFgColor_override" "OmpText"
 	}
 	
@@ -274,5 +344,5 @@
 			"text"		"#TF_Continue_360"
 			"icon"		"#GameUI_Icons_A_BUTTON"	
 		}
-	}	
+	}
 }

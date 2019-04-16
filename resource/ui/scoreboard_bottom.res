@@ -1,5 +1,6 @@
 "Resource/UI/Scoreboard.res"
 {
+	//scoreboard_bottom.res
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"

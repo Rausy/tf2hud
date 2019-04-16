@@ -1,5 +1,6 @@
 "Resource/UI/Scoreboard.res"
 {
+	//scoreboard_12v12.res
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
@@ -14,17 +15,21 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"medal_width"		"15"
-		"spacer"		"3"
-		"avatar_width"		"55"
-		"name_width"		"85"
-		"status_width"		"15"
+		"avatar_width"		"57"
+		"spacer"			"5"
+		"name_width"		"79"
 		"nemesis_width"		"15"
-		"class_width"		"15"
+		"class_width"		"20"
 		"score_width"		"25"
-		"ping_width"		"25"
-		"stats_width"		"25"
-		"killstreak_image_width" "15"
+		"ping_width"		"20"
+		"stats_width"		"30"
 		"killstreak_width"	"15"
+		"killstreak_image_width" "15"
+		
+		if_mvm
+		{
+			"name_width"	"70"
+		}
 	}
 	"BlueScoreBG"
 	{
@@ -90,12 +95,12 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"OmpDarkBG"
+		"fillcolor"		"25 25 25 225"
 	}
-	"BlueTeamLabel"
+	"BlueTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamLabel"
+		"fieldName"		"BlueTeamLabel1"
 		"font"			"Futura32"
 		"fgcolor"		"OmpText"
 		"labelText"		"%blueteamname%"
@@ -184,10 +189,10 @@
 			"visible"		"0"
 		}
 	}							
-	"RedTeamLabel"
+	"RedTeamLabel1"
 	{
 		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamLabel"
+		"fieldName"		"RedTeamLabel1"
 		"font"			"Futura32"
 		"fgcolor"		"OmpText"
 		"labelText"		"%redteamname%"
@@ -843,10 +848,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}												
-		"Kills"
+		"Kills2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Kills"
+			"fieldName"		"Kills2"
 			"font"			"Futura20"
 			"fgcolor"		"OmpText"
 			"labelText"		"%kills%"
@@ -861,10 +866,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Deaths"
+		"Deaths2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Deaths"
+			"fieldName"		"Deaths2"
 			"font"			"Futura20"
 			"fgcolor"		"OmpText"
 			"labelText"		"%deaths%"
@@ -933,10 +938,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}							
-		"Assists"
+		"Assists2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Assists"
+			"fieldName"		"Assists2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%assists%"
@@ -951,10 +956,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Destruction"
+		"Destruction2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Destruction"
+			"fieldName"		"Destruction2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%destruction%"
@@ -1041,10 +1046,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Captures"
+		"Captures2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Captures"
+			"fieldName"		"Captures2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%captures%"
@@ -1059,10 +1064,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Defenses"
+		"Defenses2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Defenses"
+			"fieldName"		"Defenses2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%defenses%"
@@ -1077,10 +1082,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Domination"
+		"Domination2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Domination"
+			"fieldName"		"Domination2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%dominations%"
@@ -1095,10 +1100,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Revenge"
+		"Revenge2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Revenge"
+			"fieldName"		"Revenge2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%Revenge%"
@@ -1185,10 +1190,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Healing"
+		"Healing2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Healing"
+			"fieldName"		"Healing2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%healing%"
@@ -1203,10 +1208,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Invuln"
+		"Invuln2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Invuln"
+			"fieldName"		"Invuln2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%invulns%"
@@ -1221,10 +1226,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Teleports"
+		"Teleports2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Teleports"
+			"fieldName"		"Teleports2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%teleports%"
@@ -1239,10 +1244,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Headshots"
+		"Headshots2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Headshots"
+			"fieldName"		"Headshots2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%headshots%"
@@ -1275,10 +1280,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Backstabs"
+		"Backstabs2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Backstabs"
+			"fieldName"		"Backstabs2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%backstabs%"
@@ -1311,10 +1316,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Bonus"
+		"Bonus2"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Bonus"
+			"fieldName"		"Bonus2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%bonus%"
@@ -1347,10 +1352,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Support"
+		"Support2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Support"
+			"fieldName"		"Support2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%support%"
@@ -1383,10 +1388,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
-		"Damage"
+		"Damage2"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damage"
+			"fieldName"		"Damage2"
 			"font"			"Futura9"
 			"fgcolor"		"OmpText"
 			"labelText"		"%damage%"

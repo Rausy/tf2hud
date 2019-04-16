@@ -56,4 +56,23 @@
 		"wide_minmode"	"91"
 		"tall_minmode"	"25"
 	}
+	
+	//"DamageAccountValue"
+    //{
+    //    "ControlName"   "CExLabel"
+    //    "fieldName" "DamageAccountValue"
+    //    "xpos"  "c-50"
+    //    "ypos"  "c-27"
+    //    "zpos"  "2"
+    //    "wide"  "100"
+    //    "tall"  "26"
+    //    "visible"   "1"
+    //    "enabled"   "1"
+    //    "labelText" "%metal%"
+    //    "fgColor"           "OmpDamageNumbers"
+    //    "delta_lifetime"        "1.5"
+    //    "textAlignment" "center"
+    //    "font"  "Futura24"
+    //}
+
 }

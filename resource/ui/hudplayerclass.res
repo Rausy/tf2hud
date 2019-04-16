@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerClass"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"480"
@@ -17,99 +17,101 @@
 	{
 		"ControlName"	"CTFClassImage"
 		"fieldName"		"PlayerStatusClassImage"
-		"xpos"			"10"
-		"ypos"			"r103" // omp -- 1 down due to low-res grid.
+		"xpos"			"10"	[$WIN32]
+		"ypos"			"r90"	[$WIN32]
 		"zpos"			"2"
-		"wide"			"50"
-		"tall"			"50"
+		"wide"			"80"
+		"tall"			"80"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/class_scoutred"
+		"image"			"../vgui/replay/thumbnails/class_scoutred"
 		"scaleImage"	"1"	
-		"alpha"			"0"
+		"alpha"			"255"
 	}
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"9999"		[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"2"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/class_spyred"
+		"image"			"../vgui/replay/thumbnails/class_spyred"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/class_spyred"
-		"teambg_3"		"../hud/class_spyblue"			
+		"teambg_2"		"../vgui/replay/thumbnails/class_spyred"
+		"teambg_3"		"../vgui/replay/thumbnails/class_spyblue"			
 	}	
 	"PlayerStatusSpyOutlineImage"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusSpyOutlineImage"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"9999"	
+		"ypos"			"9999"	
 		"zpos"			"7"
 		"wide"			"55"
-		"wide_minmode"	"27"
 		"tall"			"55"
-		"tall_minmode"	"27"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../hud/class_spy_outline"
+		"image"			"../vgui/replay/thumbnails/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
 	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"PlayerStatusClassImageBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
+		"xpos"			"9999"		[$WIN32]
+		"ypos"			"9999"	[$WIN32]
 		"zpos"			"1"		
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"scaleImage"	"1"
-		"image"			"../hud/character_red_bg"	
-		"teambg_2"		"../hud/character_red_bg"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef"
-		"teambg_3"		"../hud/character_blue_bg"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef"
+		"image"			"../vgui/replay/thumbnails/character_red_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../vgui/replay/thumbnails/character_red_bg"
+		"teambg_2_lodef"	"../vgui/replay/thumbnails/character_red_bg_lodef"
+		"teambg_3"		"../vgui/replay/thumbnails/character_blue_bg"
+		"teambg_3_lodef"	"../vgui/replay/thumbnails/character_blue_bg_lodef"
 	}
-
+	
 	"classmodelpanelBG"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"classmodelpanelBG"
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"1"		
-		"wide"			"109"
-		"tall"			"50"
-		"visible"		"1"
-		"enabled"		"1"
+		"xpos"			"9999"		[$WIN32]
+		"ypos"			"9999"	[$WIN32]
+		"zpos"			"-9999"		
+		"wide"			"90"
+		"tall"			"25"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"../hud/character_red_bg_clipped"	
-		"teambg_2"			"../hud/character_red_bg_clipped"
-		"teambg_2_lodef"	"../hud/character_red_bg_lodef_clipped"
-		"teambg_3"			"../hud/character_blue_bg_clipped"
-		"teambg_3_lodef"	"../hud/character_blue_bg_lodef_clipped"
+		"image"				"../vgui/replay/thumbnails/character_red_bg_clipped"	
+		"teambg_2"			"../vgui/replay/thumbnails/character_red_bg_clipped"
+		"teambg_2_lodef"	"../vgui/replay/thumbnails/character_red_bg_lodef_clipped"
+		"teambg_3"			"../vgui/replay/thumbnails/character_blue_bg_clipped"
+		"teambg_3_lodef"	"../vgui/replay/thumbnails/character_blue_bg_lodef_clipped"
+		
+		"src_corner_height"		"20"				// pixels inside the image
+		"src_corner_width"		"20"
+		"draw_corner_height"	"0"
+		"draw_corner_width"		"0"
 	}
+	
 
 	"classmodelpanel"
 	{
 		"ControlName"	"CTFPlayerModelPanel"
 		"fieldName"		"classmodelpanel"
 		
-		"xpos"			"9999"
-		"ypos"			"9999"
-		"zpos"			"2"		
-		"wide"			"50"
-		"tall"			"100"
+		"xpos"			"10"	[$WIN32]
+		"ypos"			"r150"	[$WIN32]
+		"zpos"			"9999"		
+		"wide"			"75"
+		"tall"			"150"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -118,8 +120,6 @@
 		"render_texture"	"0"
 		"fov"			"12"
 		"allow_rot"		"1"
-
-		"disable_speak_event"	"1"
 				
 		"model"
 		{
@@ -203,34 +203,34 @@
 				"angles_y"		"220"
 				"angles_z"		"-10"
 				"origin_x"		"105"
-				"origin_y"		"-1"
+				"origin_y"		"3"
 				"origin_z"		"-82"
 			}
 			"Sniper"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"130"
-				"origin_y"		"-3"
-				"origin_z"		"-97"
+				"origin_y"		"2"
+				"origin_z"		"-93"
 			}
 			"Soldier"
 			{
 				"fov"			"25"
 				"angles_x"		"-10"
-				"angles_y"		"170"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"145"
-				"origin_y"		"-5"
+				"origin_y"		"2"
 				"origin_z"		"-90"
 			}
 			"Demoman"
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"200"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"138"
 				"origin_y"		"-4"
@@ -240,47 +240,47 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"178"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
-				"origin_z"		"-96"
+				"origin_z"		"-90"
 			}
 			"Heavy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"200"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"200"
-				"origin_y"		"0"
+				"origin_y"		"2"
 				"origin_z"		"-102"
 			}
 			"Pyro"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"172"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"175"
-				"origin_y"		"-5"
+				"origin_y"		"3"
 				"origin_z"		"-90"
 			}
 			"Spy"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"160"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
-				"origin_z"		"-95"
+				"origin_z"		"-90"
 			}
 			"Engineer"
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"168"
+				"angles_y"		"220"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"

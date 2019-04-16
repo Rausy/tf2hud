@@ -1,5 +1,6 @@
 "Resource/UI/Scoreboard.res"
 {
+	//scoreboard_16v16.res
 	"scores"
 	{
 		"ControlName"		"CTFClientScoreBoardDialog"
@@ -13,16 +14,13 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"avatar_width"		"55"
-		"name_width"		"85"
+		"avatar_width"		"57"
+		"name_width"		"94"
 		"status_width"		"15"
 		"nemesis_width"		"15"
 		"class_width"		"15"
 		"score_width"		"25"
-		"ping_width"		"25"
-		"medal_width"		"15"
-		"stats_width"		"25"
-		"killstreak_width"	"15"
+		"ping_width"		"23"
 	}
 	"BlueScoreBG"
 	{
