@@ -136,7 +136,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"BackButton"
 		"xpos"			"r25"
-		"ypos"			"0"
+		"ypos"			"30"
 		"zpos"			"9999"
 		"wide"			"20"
 		"tall"			"20"
