@@ -1,4 +1,4 @@
-# omphud Classic
+![omphud Classic](https://i.imgur.com/gASGRbJ.png)
 
 The omphud you all remember and love, updated to 2019, with a brand new configurator app!
 
