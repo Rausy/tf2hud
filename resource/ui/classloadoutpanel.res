@@ -470,6 +470,37 @@
 		"textAlignment"	"east"
 		"centerwrap"	"1"
 	}
+	
+	"BlueButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"BlueButton"
+		"xpos"				"c-55"
+		"ypos"				"c-178"
+		"zpos"				"2"
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"0"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"B"
+		"textAlignment"		"center"
+		"font"				"Futura16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 1"
+		
+		"defaultFgColor_override" "ahudBlue"
+		"armedFgColor_override" "ahudWhite"
+		"armedBgColor_override"	"ahudBlue"
+		"depressedFgColor_override" "ahudWhite"
+		"depressedBgColor_override"	"ahudBlue"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"NoBorder"
+	}
 
 	"CharacterLoadoutButton"
 	{
@@ -548,7 +579,38 @@
 			"image"			"../hud/ico_reel"
 		}
 	}
-
+	
+	"RedButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"RedButton"
+		"xpos"				"c27"
+		"ypos"				"c-178"
+		"zpos"				"2"
+		"wide"				"25"
+		"tall"				"25"
+		"autoResize"		"1"
+		"pinCorner"			"2"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"0"
+		"labelText"			"R"
+		"textAlignment"		"center"
+		"font"				"Futura16"
+		"scaleImage"		"1"
+		"command"			"sv_cheats 1;r_skin 0"
+		
+		"defaultFgColor_override" "ahudRed"
+		"armedFgColor_override" "ahudWhite"
+		"armedBgColor_override"	"ahudRed"
+		"depressedFgColor_override" "ahudWhite"
+		"depressedBgColor_override"	"ahudRed"
+		
+		"sound_depressed"	"UI/buttonclick.wav"
+		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"NoBorder"
+	}
+	
 	"TauntsExplanation"
 	{
 		"ControlName"	"CExplanationPopup"
