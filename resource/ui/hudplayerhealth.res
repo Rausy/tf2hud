@@ -35,8 +35,8 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		
-		"xpos_minmode"	"1"
-		"ypos_minmode"	"34"
+		//"xpos_minmode"	"1"
+		//"ypos_minmode"	"34"
 		"wide_minmode"	"24"
 		"tall_minmode"	"24"
 
@@ -57,8 +57,8 @@
 		"image"			"../hud/health_bg"
 		"scaleImage"	"1"	
 		
-		"xpos_minmode"	"0"
-		"ypos_minmode"	"33"
+		//"xpos_minmode"	"0"
+		//"ypos_minmode"	"33"
 		"wide_minmode"	"26"
 		"tall_minmode"	"26"
 	}	
