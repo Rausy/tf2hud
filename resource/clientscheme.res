@@ -3031,7 +3031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"6"
 				"additive"	"0"
 				"antialias" "1"
@@ -3041,7 +3041,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -3051,7 +3051,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3061,7 +3061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -3071,7 +3071,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3081,7 +3081,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3091,7 +3091,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3101,7 +3101,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -3111,7 +3111,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3121,7 +3121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -3131,7 +3131,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -3141,7 +3141,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -3151,7 +3151,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -3161,7 +3161,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -3171,7 +3171,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -3181,7 +3181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" "1"
@@ -3191,7 +3191,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"38"
 				"additive"	"0"
 				"antialias" "1"
@@ -3201,7 +3201,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -3211,7 +3211,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"6"
 				"additive"	"0"
 				"antialias" "1"
@@ -3252,7 +3252,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"8"
 				"additive"	"0"
 				"antialias" "1"
@@ -3263,7 +3263,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "1"
@@ -3274,7 +3274,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "1"
@@ -3285,7 +3285,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "1"
@@ -3296,7 +3296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "1"
@@ -3307,7 +3307,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "1"
@@ -3318,7 +3318,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "1"
@@ -3329,7 +3329,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"22"
 				"additive"	"0"
 				"antialias" "1"
@@ -3340,7 +3340,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"24"
 				"additive"	"0"
 				"antialias" "1"
@@ -3351,7 +3351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"26"
 				"additive"	"0"
 				"antialias" "1"
@@ -3362,7 +3362,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"28"
 				"additive"	"0"
 				"antialias" "1"
@@ -3373,7 +3373,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"30"
 				"additive"	"0"
 				"antialias" "1"
@@ -3384,7 +3384,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"32"
 				"additive"	"0"
 				"antialias" "1"
@@ -3395,7 +3395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"34"
 				"additive"	"0"
 				"antialias" "1"
@@ -3406,7 +3406,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"36"
 				"additive"	"0"
 				"antialias" "1"
@@ -3417,7 +3417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"38"
 				"additive"	"0"
 				"antialias" "1"
@@ -3428,7 +3428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"40"
 				"additive"	"0"
 				"antialias" "1"
@@ -3439,7 +3439,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "0"
@@ -3449,7 +3449,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "0"
@@ -3459,7 +3459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "0"
@@ -3469,7 +3469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" "0"
@@ -3479,7 +3479,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "0"
@@ -3489,7 +3489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" "0"
@@ -3499,7 +3499,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "0"
@@ -3509,7 +3509,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"17"
 				"additive"	"0"
 				"antialias" "0"
@@ -3519,7 +3519,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "0"
@@ -3529,7 +3529,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"19"
 				"additive"	"0"
 				"antialias" "0"
@@ -3539,7 +3539,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "0"
@@ -3549,7 +3549,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" "0"
@@ -3560,7 +3560,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"11"
 				"additive"	"0"
 				"antialias" "0"
@@ -3571,7 +3571,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"12"
 				"additive"	"0"
 				"antialias" "0"
@@ -3582,7 +3582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"13"
 				"additive"	"0"
 				"antialias" "0"
@@ -3593,7 +3593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" "0"
@@ -3604,7 +3604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"15"
 				"additive"	"0"
 				"antialias" "0"
@@ -3615,7 +3615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"16"
 				"additive"	"0"
 				"antialias" "0"
@@ -3626,7 +3626,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"17"
 				"additive"	"0"
 				"antialias" "0"
@@ -3637,7 +3637,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"18"
 				"additive"	"0"
 				"antialias" "0"
@@ -3648,7 +3648,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"19"
 				"additive"	"0"
 				"antialias" "0"
@@ -3659,7 +3659,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Crosshairs Regular"
+				"name"		"Crosshairs"
 				"tall"		"20"
 				"additive"	"0"
 				"antialias" "0"
@@ -6746,7 +6746,7 @@ ButtonHover
 		"9"
 		{
 			"font" "resource/Crosshairs.ttf"
-			"name" "Crosshairs Regular"
+			"name" "Crosshairs"
 		}
 		"10"
 		{
