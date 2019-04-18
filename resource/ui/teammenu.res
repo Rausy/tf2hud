@@ -1,5 +1,6 @@
 "Resource/UI/TeamMenu.res"
 {
+	//teammenu_normal.res
 	"team"
 	{
 		"ControlName"	"CTeamMenu"
